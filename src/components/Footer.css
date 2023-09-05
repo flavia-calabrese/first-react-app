@@ -1,0 +1,15 @@
+.expand-primary-item span {
+    transition: all 0.3s
+  }
+
+  .expand-primary-item:hover span {
+    color: var(--mui-palette-primary-main)
+  }
+
+ .expand-primary-item {
+     cursor: pointer;
+ } 
+
+.expand-primary-item > svg {
+    color: var(--mui-palette-primary-main);
+}
